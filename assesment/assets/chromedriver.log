@@ -1,0 +1,159 @@
+[1732945590.076][INFO]: Starting ChromeDriver 131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285}) on port 43453
+[1732945590.076][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1732945590.084][INFO]: ChromeDriver was started successfully on port 43453
+[1732945590.802][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--remote-allow-origins=*" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1732945590.803][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1732945590.804][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1732945590.807][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1732945590.807][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1732945590.809][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\visha\AppData\Local\Temp\scoped_dir9740_1191267318" data:,
+[1732945591.787][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1732945591.799][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "131.0.6778.86",
+      "chrome": {
+         "chromedriverVersion": "131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})",
+         "userDataDir": "C:\\Users\\visha\\AppData\\Local\\Temp\\scoped_dir9740_1191267318"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63426"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "fc53a2e6fbf2ee43700b3e58875ae87b"
+}
+[1732945592.185][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] COMMAND MaximizeWindow {
+}
+[1732945592.185][INFO]: Waiting for pending navigations...
+[1732945592.200][INFO]: Done waiting for pending navigations. Status: ok
+[1732945592.277][INFO]: Waiting for pending navigations...
+[1732945592.277][INFO]: Done waiting for pending navigations. Status: ok
+[1732945592.278][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] RESPONSE MaximizeWindow {
+   "height": 736,
+   "width": 1382,
+   "x": -8,
+   "y": -8
+}
+[1732945592.297][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] COMMAND Navigate {
+   "url": "https://www.scrapethissite.com/pages//"
+}
+[1732945592.297][INFO]: Waiting for pending navigations...
+[1732945592.299][INFO]: Done waiting for pending navigations. Status: ok
+[1732945593.347][INFO]: Waiting for pending navigations...
+[1732945593.347][INFO]: Done waiting for pending navigations. Status: ok
+[1732945593.347][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] RESPONSE Navigate
+[1732945597.370][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[text()='Hockey Teams: Forms, Searching and Pagination']"
+}
+[1732945597.371][INFO]: Waiting for pending navigations...
+[1732945597.371][INFO]: Done waiting for pending navigations. Status: ok
+[1732945597.385][INFO]: Waiting for pending navigations...
+[1732945597.386][INFO]: Done waiting for pending navigations. Status: ok
+[1732945597.386][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.A87319630E0DAA1545CE8B3979B30ACA.d.6B0956166B4419D2D9C8C79DC7BEF049.e.26"
+}
+[1732945597.396][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] COMMAND ClickElement {
+   "id": "f.A87319630E0DAA1545CE8B3979B30ACA.d.6B0956166B4419D2D9C8C79DC7BEF049.e.26"
+}
+[1732945597.396][INFO]: Waiting for pending navigations...
+[1732945597.397][INFO]: Done waiting for pending navigations. Status: ok
+[1732945597.536][INFO]: Waiting for pending navigations...
+[1732945598.309][INFO]: Done waiting for pending navigations. Status: ok
+[1732945598.309][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] RESPONSE ClickElement

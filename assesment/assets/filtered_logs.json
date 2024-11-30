@@ -1,0 +1,24 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1732945590.802][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
+            "RESPONSE": "[1732945591.799][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"131.0.6778.86\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"131.0.6778.85 (3d81e41b6f3ac8bcae63b32e8145c9eb0cd60a2d-refs/branch-heads/6778@{#2285})\",\n         \"userDataDir\": \"C:\\\\Users\\\\visha\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir9740_1191267318\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:63426\"\n      },\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"webauthn:extension:prf\": true,\n      \"webauthn:virtualAuthenticators\": true\n   },\n   \"sessionId\": \"fc53a2e6fbf2ee43700b3e58875ae87b\"\n}\n"
+        },
+        {
+            "COMMAND": "[1732945592.185][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] COMMAND MaximizeWindow {\n}\n",
+            "RESPONSE": "[1732945592.278][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] RESPONSE MaximizeWindow {\n   \"height\": 736,\n   \"width\": 1382,\n   \"x\": -8,\n   \"y\": -8\n}\n"
+        },
+        {
+            "COMMAND": "[1732945592.297][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] COMMAND Navigate {\n   \"url\": \"https://www.scrapethissite.com/pages//\"\n}\n",
+            "RESPONSE": "[1732945593.347][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1732945597.370][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//a[text()='Hockey Teams: Forms, Searching and Pagination']\"\n}\n",
+            "RESPONSE": "[1732945597.386][INFO]: [fc53a2e6fbf2ee43700b3e58875ae87b] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.A87319630E0DAA1545CE8B3979B30ACA.d.6B0956166B4419D2D9C8C79DC7BEF049.e.26\"\n}\n"
+        }
+    ]
+}
